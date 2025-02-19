@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Le Monde Réformé - Le Journal de Demain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Le Monde Réformé</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Politique</a></li>
+        <li><a href="#">Économie</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Science</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="main-article">
+      <h2>Réforme radicale : "La France adopte une semaine de travail de 4 jours !" </h2>
+      <p class="intro">Une annonce gouvernementale qui bouleverse le paysage du travail en France...</p>
+      <img src="your-photo.jpg" alt="Réforme" class="main-image"> <!-- Photo que tu feras -->
+      <p class="content">Le gouvernement français a décidé de réduire la semaine de travail à 4 jours dès 2025. Les réactions sont partagées, mais une chose est sûre : cette réforme promet de transformer notre quotidien...</p>
+      <button class="petition-btn" onclick="window.location.href='https://example.com/petition'">Signer la pétition pour une avancée vers cette réforme</button>
+    </section>
+
+    <section class="other-articles">
+      <h3>Autres articles :</h3>
+      <ul>
+        <li><a href="#">Les entreprises s’adaptent à la nouvelle semaine de travail</a></li>
+        <li><a href="#">Comment cette réforme change la productivité ?</a></li>
+        <li><a href="#">Interview : Les travailleurs racontent leur nouvelle semaine</a></li>
+      </ul>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Le Monde Réformé. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
